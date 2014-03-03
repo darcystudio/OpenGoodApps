@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1A4B0016CFB0D500167216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1A4AFF16CFB0D500167216 /* UIKit.framework */; };
+		BD1A4B0216CFB0D500167216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1A4B0116CFB0D500167216 /* Foundation.framework */; };
+		BD1A4B0416CFB0D500167216 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1A4B0316CFB0D500167216 /* CoreGraphics.framework */; };
+		BD1A4B0A16CFB0D500167216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD1A4B0816CFB0D500167216 /* InfoPlist.strings */; };
+		BD1A4B0C16CFB0D500167216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1A4B0B16CFB0D500167216 /* main.m */; };
+		BD1A4B1016CFB0D500167216 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1A4B0F16CFB0D500167216 /* DSAppDelegate.m */; };
+		BD1A4B1916CFB0D500167216 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1A4B1816CFB0D500167216 /* DSViewController.m */; };
+		BD1A4B1C16CFB0D500167216 /* DSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1A4B1A16CFB0D500167216 /* DSViewController_iPhone.xib */; };
+		BD1A4B1F16CFB0D500167216 /* DSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1A4B1D16CFB0D500167216 /* DSViewController_iPad.xib */; };
+		BD62395016D283C500E7196F /* TimeText_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394016D283C500E7196F /* TimeText_iPad@2x.png */; };
+		BD62395116D283C500E7196F /* TimeText_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394116D283C500E7196F /* TimeText_iPad.png */; };
+		BD62395216D283C500E7196F /* SecondHand_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394216D283C500E7196F /* SecondHand_iPad.png */; };
+		BD62395316D283C500E7196F /* SecondHand_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394316D283C500E7196F /* SecondHand_iPad@2x.png */; };
+		BD62395416D283C500E7196F /* SecondHand_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394416D283C500E7196F /* SecondHand_iPhone@2x.png */; };
+		BD62395516D283C500E7196F /* TimeText_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394516D283C500E7196F /* TimeText_iPhone@2x.png */; };
+		BD62395616D283C500E7196F /* MinuteHand_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394616D283C500E7196F /* MinuteHand_iPad.png */; };
+		BD62395716D283C500E7196F /* MinuteHand_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394716D283C500E7196F /* MinuteHand_iPad@2x.png */; };
+		BD62395816D283C500E7196F /* MinuteHand_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394816D283C500E7196F /* MinuteHand_iPhone@2x.png */; };
+		BD62395916D283C500E7196F /* MinuteHand_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394916D283C500E7196F /* MinuteHand_iPhone.png */; };
+		BD62395A16D283C500E7196F /* SecondHand_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394A16D283C500E7196F /* SecondHand_iPhone.png */; };
+		BD62395B16D283C500E7196F /* TimeText_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394B16D283C500E7196F /* TimeText_iPhone.png */; };
+		BD62395C16D283C500E7196F /* HourHand_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394C16D283C500E7196F /* HourHand_iPad.png */; };
+		BD62395D16D283C500E7196F /* HourHand_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394D16D283C500E7196F /* HourHand_iPad@2x.png */; };
+		BD62395E16D283C500E7196F /* HourHand_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394E16D283C500E7196F /* HourHand_iPhone.png */; };
+		BD62395F16D283C500E7196F /* HourHand_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62394F16D283C500E7196F /* HourHand_iPhone@2x.png */; };
+		BD6C9D1918A0E65A000BB835 /* sound-school.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD6C9D1818A0E65A000BB835 /* sound-school.wav */; };
+		BD6C9D1B18A0E824000BB835 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6C9D1A18A0E824000BB835 /* Default-568h@2x.png */; };
+		BD6C9D1D18A0E93A000BB835 /* sound-school.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD6C9D1C18A0E93A000BB835 /* sound-school.mp3 */; };
+		BD6C9D1F18A0E9CD000BB835 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6C9D1E18A0E9CD000BB835 /* AVFoundation.framework */; };
+		BDEA0D8016CFB2DA00DDB514 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D7F16CFB2DA00DDB514 /* icon57.png */; };
+		BDEA0D8216CFB2E000DDB514 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D8116CFB2E000DDB514 /* icon114.png */; };
+		BDEA0D8416CFB2E600DDB514 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D8316CFB2E600DDB514 /* icon72.png */; };
+		BDEA0D8616CFB2E900DDB514 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D8516CFB2E900DDB514 /* icon144.png */; };
+		BDEA0D9816CFD84C00DDB514 /* sound-da.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D9616CFD84C00DDB514 /* sound-da.wav */; };
+		BDEA0D9916CFD84C00DDB514 /* sound-ds.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDEA0D9716CFD84C00DDB514 /* sound-ds.wav */; };
+		BDEA0D9B16CFD98C00DDB514 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEA0D9A16CFD98C00DDB514 /* AudioToolbox.framework */; };
+		BDF5561818C4BE0100DD5914 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF5561518C4BE0100DD5914 /* icon120.png */; };
+		BDF5561918C4BE0100DD5914 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF5561618C4BE0100DD5914 /* icon152.png */; };
+		BDF5561A18C4BE0100DD5914 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF5561718C4BE0100DD5914 /* icon76.png */; };
+		BDF5561E18C4BF7000DD5914 /* DSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF5561C18C4BF7000DD5914 /* DSSettingsViewController.m */; };
+		BDF5561F18C4BF7000DD5914 /* DSSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF5561D18C4BF7000DD5914 /* DSSettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD1A4AFB16CFB0D500167216 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1A4AFF16CFB0D500167216 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD1A4B0116CFB0D500167216 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD1A4B0316CFB0D500167216 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD1A4B0716CFB0D500167216 /* Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clock-Info.plist"; sourceTree = "<group>"; };
+		BD1A4B0916CFB0D500167216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD1A4B0B16CFB0D500167216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1A4B0D16CFB0D500167216 /* Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
+		BD1A4B0E16CFB0D500167216 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		BD1A4B0F16CFB0D500167216 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		BD1A4B1116CFB0D500167216 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD1A4B1316CFB0D500167216 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD1A4B1516CFB0D500167216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD1A4B1716CFB0D500167216 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
+		BD1A4B1816CFB0D500167216 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
+		BD1A4B1B16CFB0D500167216 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController_iPhone.xib; sourceTree = "<group>"; };
+		BD1A4B1E16CFB0D500167216 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController_iPad.xib; sourceTree = "<group>"; };
+		BD62394016D283C500E7196F /* TimeText_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TimeText_iPad@2x.png"; sourceTree = "<group>"; };
+		BD62394116D283C500E7196F /* TimeText_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeText_iPad.png; sourceTree = "<group>"; };
+		BD62394216D283C500E7196F /* SecondHand_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand_iPad.png; sourceTree = "<group>"; };
+		BD62394316D283C500E7196F /* SecondHand_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondHand_iPad@2x.png"; sourceTree = "<group>"; };
+		BD62394416D283C500E7196F /* SecondHand_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondHand_iPhone@2x.png"; sourceTree = "<group>"; };
+		BD62394516D283C500E7196F /* TimeText_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TimeText_iPhone@2x.png"; sourceTree = "<group>"; };
+		BD62394616D283C500E7196F /* MinuteHand_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand_iPad.png; sourceTree = "<group>"; };
+		BD62394716D283C500E7196F /* MinuteHand_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinuteHand_iPad@2x.png"; sourceTree = "<group>"; };
+		BD62394816D283C500E7196F /* MinuteHand_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinuteHand_iPhone@2x.png"; sourceTree = "<group>"; };
+		BD62394916D283C500E7196F /* MinuteHand_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand_iPhone.png; sourceTree = "<group>"; };
+		BD62394A16D283C500E7196F /* SecondHand_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand_iPhone.png; sourceTree = "<group>"; };
+		BD62394B16D283C500E7196F /* TimeText_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeText_iPhone.png; sourceTree = "<group>"; };
+		BD62394C16D283C500E7196F /* HourHand_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand_iPad.png; sourceTree = "<group>"; };
+		BD62394D16D283C500E7196F /* HourHand_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HourHand_iPad@2x.png"; sourceTree = "<group>"; };
+		BD62394E16D283C500E7196F /* HourHand_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand_iPhone.png; sourceTree = "<group>"; };
+		BD62394F16D283C500E7196F /* HourHand_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HourHand_iPhone@2x.png"; sourceTree = "<group>"; };
+		BD6C9D1818A0E65A000BB835 /* sound-school.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sound-school.wav"; sourceTree = "<group>"; };
+		BD6C9D1A18A0E824000BB835 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD6C9D1C18A0E93A000BB835 /* sound-school.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-school.mp3"; sourceTree = "<group>"; };
+		BD6C9D1E18A0E9CD000BB835 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BDEA0D7F16CFB2DA00DDB514 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		BDEA0D8116CFB2E000DDB514 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		BDEA0D8316CFB2E600DDB514 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		BDEA0D8516CFB2E900DDB514 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		BDEA0D9616CFD84C00DDB514 /* sound-da.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sound-da.wav"; sourceTree = "<group>"; };
+		BDEA0D9716CFD84C00DDB514 /* sound-ds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sound-ds.wav"; sourceTree = "<group>"; };
+		BDEA0D9A16CFD98C00DDB514 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BDF5561518C4BE0100DD5914 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		BDF5561618C4BE0100DD5914 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		BDF5561718C4BE0100DD5914 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		BDF5561B18C4BF7000DD5914 /* DSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSettingsViewController.h; sourceTree = "<group>"; };
+		BDF5561C18C4BF7000DD5914 /* DSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSettingsViewController.m; sourceTree = "<group>"; };
+		BDF5561D18C4BF7000DD5914 /* DSSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSSettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1A4AF816CFB0D500167216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6C9D1F18A0E9CD000BB835 /* AVFoundation.framework in Frameworks */,
+				BDEA0D9B16CFD98C00DDB514 /* AudioToolbox.framework in Frameworks */,
+				BD1A4B0016CFB0D500167216 /* UIKit.framework in Frameworks */,
+				BD1A4B0216CFB0D500167216 /* Foundation.framework in Frameworks */,
+				BD1A4B0416CFB0D500167216 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1A4AF016CFB0D500167216 = {
+			isa = PBXGroup;
+			children = (
+				BD6C9D1A18A0E824000BB835 /* Default-568h@2x.png */,
+				BDEA0D7F16CFB2DA00DDB514 /* icon57.png */,
+				BDEA0D8316CFB2E600DDB514 /* icon72.png */,
+				BDF5561718C4BE0100DD5914 /* icon76.png */,
+				BDEA0D8116CFB2E000DDB514 /* icon114.png */,
+				BDF5561518C4BE0100DD5914 /* icon120.png */,
+				BDEA0D8516CFB2E900DDB514 /* icon144.png */,
+				BDF5561618C4BE0100DD5914 /* icon152.png */,
+				BD1A4B0516CFB0D500167216 /* Clock */,
+				BD1A4AFE16CFB0D500167216 /* Frameworks */,
+				BD1A4AFC16CFB0D500167216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1A4AFC16CFB0D500167216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1A4AFB16CFB0D500167216 /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1A4AFE16CFB0D500167216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6C9D1E18A0E9CD000BB835 /* AVFoundation.framework */,
+				BDEA0D9A16CFD98C00DDB514 /* AudioToolbox.framework */,
+				BD1A4AFF16CFB0D500167216 /* UIKit.framework */,
+				BD1A4B0116CFB0D500167216 /* Foundation.framework */,
+				BD1A4B0316CFB0D500167216 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1A4B0516CFB0D500167216 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				BD1A4B0E16CFB0D500167216 /* DSAppDelegate.h */,
+				BD1A4B0F16CFB0D500167216 /* DSAppDelegate.m */,
+				BD1A4B1716CFB0D500167216 /* DSViewController.h */,
+				BD1A4B1816CFB0D500167216 /* DSViewController.m */,
+				BD1A4B1A16CFB0D500167216 /* DSViewController_iPhone.xib */,
+				BD1A4B1D16CFB0D500167216 /* DSViewController_iPad.xib */,
+				BD1A4B0616CFB0D500167216 /* Supporting Files */,
+				BDEA0D8716CFB33E00DDB514 /* Images */,
+				BDF5561B18C4BF7000DD5914 /* DSSettingsViewController.h */,
+				BDF5561C18C4BF7000DD5914 /* DSSettingsViewController.m */,
+				BDF5561D18C4BF7000DD5914 /* DSSettingsViewController.xib */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		BD1A4B0616CFB0D500167216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1A4B0716CFB0D500167216 /* Clock-Info.plist */,
+				BD1A4B0816CFB0D500167216 /* InfoPlist.strings */,
+				BD1A4B0B16CFB0D500167216 /* main.m */,
+				BD1A4B0D16CFB0D500167216 /* Clock-Prefix.pch */,
+				BD1A4B1116CFB0D500167216 /* Default.png */,
+				BD1A4B1316CFB0D500167216 /* Default@2x.png */,
+				BD1A4B1516CFB0D500167216 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDEA0D8716CFB33E00DDB514 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BD62394216D283C500E7196F /* SecondHand_iPad.png */,
+				BD62394316D283C500E7196F /* SecondHand_iPad@2x.png */,
+				BD62394A16D283C500E7196F /* SecondHand_iPhone.png */,
+				BD62394416D283C500E7196F /* SecondHand_iPhone@2x.png */,
+				BD62394616D283C500E7196F /* MinuteHand_iPad.png */,
+				BD62394716D283C500E7196F /* MinuteHand_iPad@2x.png */,
+				BD62394916D283C500E7196F /* MinuteHand_iPhone.png */,
+				BD62394816D283C500E7196F /* MinuteHand_iPhone@2x.png */,
+				BD62394116D283C500E7196F /* TimeText_iPad.png */,
+				BD62394016D283C500E7196F /* TimeText_iPad@2x.png */,
+				BD62394B16D283C500E7196F /* TimeText_iPhone.png */,
+				BD62394516D283C500E7196F /* TimeText_iPhone@2x.png */,
+				BD62394C16D283C500E7196F /* HourHand_iPad.png */,
+				BD62394D16D283C500E7196F /* HourHand_iPad@2x.png */,
+				BD62394E16D283C500E7196F /* HourHand_iPhone.png */,
+				BD62394F16D283C500E7196F /* HourHand_iPhone@2x.png */,
+				BD6C9D1C18A0E93A000BB835 /* sound-school.mp3 */,
+				BD6C9D1818A0E65A000BB835 /* sound-school.wav */,
+				BDEA0D9616CFD84C00DDB514 /* sound-da.wav */,
+				BDEA0D9716CFD84C00DDB514 /* sound-ds.wav */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1A4AFA16CFB0D500167216 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1A4B2216CFB0D500167216 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				BD1A4AF716CFB0D500167216 /* Sources */,
+				BD1A4AF816CFB0D500167216 /* Frameworks */,
+				BD1A4AF916CFB0D500167216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = BD1A4AFB16CFB0D500167216 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1A4AF216CFB0D500167216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = darcystudio;
+				TargetAttributes = {
+					BD1A4AFA16CFB0D500167216 = {
+						DevelopmentTeam = UD6APX88FP;
+					};
+				};
+			};
+			buildConfigurationList = BD1A4AF516CFB0D500167216 /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD1A4AF016CFB0D500167216;
+			productRefGroup = BD1A4AFC16CFB0D500167216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1A4AFA16CFB0D500167216 /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1A4AF916CFB0D500167216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1A4B0A16CFB0D500167216 /* InfoPlist.strings in Resources */,
+				BD1A4B1C16CFB0D500167216 /* DSViewController_iPhone.xib in Resources */,
+				BD1A4B1F16CFB0D500167216 /* DSViewController_iPad.xib in Resources */,
+				BDEA0D8016CFB2DA00DDB514 /* icon57.png in Resources */,
+				BDEA0D8216CFB2E000DDB514 /* icon114.png in Resources */,
+				BD6C9D1B18A0E824000BB835 /* Default-568h@2x.png in Resources */,
+				BDEA0D8416CFB2E600DDB514 /* icon72.png in Resources */,
+				BDEA0D8616CFB2E900DDB514 /* icon144.png in Resources */,
+				BDEA0D9816CFD84C00DDB514 /* sound-da.wav in Resources */,
+				BDEA0D9916CFD84C00DDB514 /* sound-ds.wav in Resources */,
+				BD62395016D283C500E7196F /* TimeText_iPad@2x.png in Resources */,
+				BD6C9D1D18A0E93A000BB835 /* sound-school.mp3 in Resources */,
+				BD62395116D283C500E7196F /* TimeText_iPad.png in Resources */,
+				BD62395216D283C500E7196F /* SecondHand_iPad.png in Resources */,
+				BDF5561918C4BE0100DD5914 /* icon152.png in Resources */,
+				BD62395316D283C500E7196F /* SecondHand_iPad@2x.png in Resources */,
+				BD62395416D283C500E7196F /* SecondHand_iPhone@2x.png in Resources */,
+				BD62395516D283C500E7196F /* TimeText_iPhone@2x.png in Resources */,
+				BDF5561A18C4BE0100DD5914 /* icon76.png in Resources */,
+				BD62395616D283C500E7196F /* MinuteHand_iPad.png in Resources */,
+				BDF5561F18C4BF7000DD5914 /* DSSettingsViewController.xib in Resources */,
+				BD62395716D283C500E7196F /* MinuteHand_iPad@2x.png in Resources */,
+				BD62395816D283C500E7196F /* MinuteHand_iPhone@2x.png in Resources */,
+				BD62395916D283C500E7196F /* MinuteHand_iPhone.png in Resources */,
+				BD62395A16D283C500E7196F /* SecondHand_iPhone.png in Resources */,
+				BD62395B16D283C500E7196F /* TimeText_iPhone.png in Resources */,
+				BD62395C16D283C500E7196F /* HourHand_iPad.png in Resources */,
+				BD62395D16D283C500E7196F /* HourHand_iPad@2x.png in Resources */,
+				BDF5561818C4BE0100DD5914 /* icon120.png in Resources */,
+				BD6C9D1918A0E65A000BB835 /* sound-school.wav in Resources */,
+				BD62395E16D283C500E7196F /* HourHand_iPhone.png in Resources */,
+				BD62395F16D283C500E7196F /* HourHand_iPhone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1A4AF716CFB0D500167216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF5561E18C4BF7000DD5914 /* DSSettingsViewController.m in Sources */,
+				BD1A4B0C16CFB0D500167216 /* main.m in Sources */,
+				BD1A4B1016CFB0D500167216 /* DSAppDelegate.m in Sources */,
+				BD1A4B1916CFB0D500167216 /* DSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD1A4B0816CFB0D500167216 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1A4B0916CFB0D500167216 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD1A4B1A16CFB0D500167216 /* DSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1A4B1B16CFB0D500167216 /* en */,
+			);
+			name = DSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BD1A4B1D16CFB0D500167216 /* DSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1A4B1E16CFB0D500167216 /* en */,
+			);
+			name = DSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1A4B2016CFB0D500167216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1A4B2116CFB0D500167216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1A4B2316CFB0D500167216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EE424AAA-7F9E-4927-87E6-41EA034E6C5B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD1A4B2416CFB0D500167216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EE424AAA-7F9E-4927-87E6-41EA034E6C5B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE424AAA-7F9E-4927-87E6-41EA034E6C5B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1A4AF516CFB0D500167216 /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1A4B2016CFB0D500167216 /* Debug */,
+				BD1A4B2116CFB0D500167216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1A4B2216CFB0D500167216 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1A4B2316CFB0D500167216 /* Debug */,
+				BD1A4B2416CFB0D500167216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1A4AF216CFB0D500167216 /* Project object */;
+}
