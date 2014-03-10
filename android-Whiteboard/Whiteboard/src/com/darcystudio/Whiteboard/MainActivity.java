@@ -47,10 +47,19 @@ public class MainActivity extends Activity
 	void init()
 	{
 		Display display = getWindowManager().getDefaultDisplay();
-		Point size = new Point();
-		display.getSize(size);
-		int width = size.x;
-		int height = size.y;
+		
+		int width = 1280;
+		int height = 800;
+		
+		// API Level >= 13
+		//Point size = new Point();
+		//display.getSize(size);
+		//width = size.x;
+		//height = size.y;
+		
+		width = display.getWidth();
+		height = display.getHeight();
+		
 		
 		
 		Log.d("Whiteboard", "w = " + width + " h = " + height);
